@@ -52,7 +52,7 @@ list_pattern <- "[.](?:xls(?:x)?|csv|rds(?:[.]gz)?)$"
 desc_file <- "file_description.csv"
 
 file_list <- dir_info(path = list_path, regexp = list_pattern,
-                   type = "file", recurse = TRUE, ignore.case = TRUE)
+                      type = "file", recurse = TRUE, ignore.case = TRUE)
 
 file_desc <- read_csv(desc_file, show_col_types = FALSE)
 
