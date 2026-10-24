@@ -70,6 +70,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.34.0/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
 
 
 </head>
@@ -145,8 +155,78 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="work_in_progress.GIF" class="quarto-figure quarto-figure-left figure-img" style="height:1in"></p>
 </figure>
 </div>
+<section id="정적-테이블" class="level3">
+<h3 class="anchored" data-anchor-id="정적-테이블">정적 테이블</h3>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">파일명</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">설명</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">수정일</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">다운로드</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">sample.csv</td>
+<td style="text-align: left;">분양 현황 원데이터</td>
+<td style="text-align: left;">2026-10-24</td>
+<td style="text-align: left;"><a href="data/processed/sample.csv" download="">data/processed/sample.csv</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sample.rds.gz</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">2026-10-24</td>
+<td style="text-align: left;"><a href="data/processed/sample.rds.gz" download="">data/processed/sample.rds.gz</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">sample.csv</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">2026-10-24</td>
+<td style="text-align: left;"><a href="data/raw/sample.csv" download="">data/raw/sample.csv</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">행정구역.xlsx</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">2026-10-24</td>
+<td style="text-align: left;"><a href="data/raw/행정구역.xlsx" download="">data/raw/행정구역.xlsx</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">report_2026.pdf</td>
+<td style="text-align: left;">2026년 사업 보고서</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">files/report_2026.pdf</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">data_sample.csv</td>
+<td style="text-align: left;">분석용 샘플 데이터</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">files/data_sample.csv</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">manual.xlsx</td>
+<td style="text-align: left;">사용자 매뉴얼</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">files/manual.xlsx</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="동적-테이블" class="level3">
+<h3 class="anchored" data-anchor-id="동적-테이블">동적 테이블</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-6eb9c1aec058022addb6" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-6eb9c1aec058022addb6">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7"],["sample.csv","sample.rds.gz","sample.csv","행정구역.xlsx","report_2026.pdf","data_sample.csv","manual.xlsx"],["분양 현황 원데이터",null,null,null,"2026년 사업 보고서","분석용 샘플 데이터","사용자 매뉴얼"],["2026-10-24","2026-10-24","2026-10-24","2026-10-24",null,null,null],["<a href=\"data/processed/sample.csv\" download>data/processed/sample.csv<\/a>","<a href=\"data/processed/sample.rds.gz\" download>data/processed/sample.rds.gz<\/a>","<a href=\"data/raw/sample.csv\" download>data/raw/sample.csv<\/a>","<a href=\"data/raw/행정구역.xlsx\" download>data/raw/행정구역.xlsx<\/a>","files/report_2026.pdf","files/data_sample.csv","files/manual.xlsx"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>파일명<\/th>\n      <th>설명<\/th>\n      <th>수정일<\/th>\n      <th>다운로드<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"파일명","targets":1},{"name":"설명","targets":2},{"name":"수정일","targets":3},{"name":"다운로드","targets":4}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -553,7 +633,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Construction Urban Study</p>
+<p>© 2023, 2026 Construction Urban Study</p>
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://www.custudy.org"><img src="./cus_logo_h.png" height="25"></a></p>
