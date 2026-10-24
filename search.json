@@ -1,9 +1,0 @@
-[
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Repository",
-    "section": "",
-    "text": "정적 테이블\n\n\n\n\n\n파일명\n설명\n수정일\n다운로드\n\n\n\n\nsample.csv\n분양 현황 원데이터\n2026-10-24\ndata/processed/sample.csv\n\n\nsample.rds.gz\nNA\n2026-10-24\ndata/processed/sample.rds.gz\n\n\nsample.csv\nNA\n2026-10-24\ndata/raw/sample.csv\n\n\n행정구역.xlsx\nNA\n2026-10-24\ndata/raw/행정구역.xlsx\n\n\nreport_2026.pdf\n2026년 사업 보고서\nNA\nfiles/report_2026.pdf\n\n\ndata_sample.csv\n분석용 샘플 데이터\nNA\nfiles/data_sample.csv\n\n\nmanual.xlsx\n사용자 매뉴얼\nNA\nfiles/manual.xlsx\n\n\n\n\n\n\n\n동적 테이블"
-  }
-]
