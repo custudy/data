@@ -1,0 +1,5 @@
+path,description
+files/report_2026.pdf,2026년 사업 보고서
+files/data_sample.csv,분석용 샘플 데이터
+files/manual.xlsx,사용자 매뉴얼
+data/processed/sample.csv,분양 현황 원데이터

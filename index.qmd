@@ -1,6 +1,56 @@
 ---
 title: "Data Repository"
 toc: false
+resources: 
+    - "data/**"
 ---
 
 ![](work_in_progress.GIF){height="1in" fig-align="left"}
+
+### 정적 테이블
+
+```{r}
+#| label: list_data_kable
+#| echo: false
+
+library(fs)
+library(readr)
+library(dplyr, warn.conflicts = FALSE)
+
+list_path <- "data"
+list_pattern <- "[.](?:xls(?:x)?|csv|rds(?:[.]gz)?)$"
+desc_file <- "data_file_description.csv"
+
+file_list <- dir_info(path = list_path, regexp = list_pattern,
+                      type = "file", recurse = TRUE, ignore.case = TRUE)
+
+file_desc <- read_csv(desc_file, show_col_types = FALSE)
+
+full_join(file_list, file_desc, by = "path") |>
+  mutate(파일명 = path_file(path),
+    설명 = description,
+    수정일 = format(modification_time, "%Y-%m-%d"),
+    다운로드 = ifelse(file_exists(path),
+                  paste0("<a href=\"", path, "\" download>", path, "</a>"),
+                  path)
+  ) |>
+  select(파일명:다운로드) |>
+  knitr::kable(format = "html", escape = FALSE)
+```
+
+### 동적 테이블
+
+```{r}
+#| label: list_data_dt
+#| echo: false
+full_join(file_list, file_desc, by = "path") |>
+  mutate(파일명 = path_file(path),
+    설명 = description,
+    수정일 = format(modification_time, "%Y-%m-%d"),
+    다운로드 = ifelse(file_exists(path),
+                  paste0("<a href=\"", path, "\" download>", path, "</a>"),
+                  path)
+  ) |>
+  select(파일명:다운로드) |>
+  DT::datatable(escape = FALSE)
+```
