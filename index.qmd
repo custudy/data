@@ -3,42 +3,9 @@ title: "Data Repository"
 toc: false
 resources:
   - "data/**"
-  - "data_r/**"
-  - "data_p/**"
 ---
 
 ![](work_in_progress.GIF){height="1in" fig-align="left"}
-
-```{r}
-#| label: list_data_processed
-#| echo: false
-#| eval: false
-
-library(fs)
-library(readr)
-library(dplyr, warn.conflicts = FALSE)
-
-list_path <- "data_p"
-list_pattern <- "[.](?:xls(?:x)?|csv|rds(?:[.]gz)?)$"
-desc_file <- "data_p.csv"
-
-file_p <- dir_info(path = list_path, regexp = list_pattern,
-                   type = "file", recurse = TRUE, ignore.case = TRUE)
-
-desc_p <- read_csv(desc_file, show_col_types = FALSE)
-
-full_join(file_p, desc_p, by = "path") |>
-  mutate(파일명 = path_file(path),
-    설명 = description,
-    수정일 = format(modification_time, "%Y-%m-%d"),
-    다운로드 = ifelse(file_exists(path),
-                  paste0("<a href=\"", path, "\" download>", path, "</a>"),
-                  path)
-  ) |>
-  select(파일명:다운로드) |>
-  arrange(desc(수정일), 파일명) |>
-  knitr::kable(format = "html", escape = FALSE)
-```
 
 ```{r}
 #| label: list_data_dt
@@ -47,9 +14,9 @@ library(fs)
 library(readr)
 library(dplyr, warn.conflicts = FALSE)
 
-list_path <- "data_p"
+list_path <- "data"
 list_pattern <- "[.](?:xls(?:x)?|csv|rds(?:[.]gz)?)$"
-desc_file <- "data_p.csv"
+desc_file <- "data_description.csv"
 
 file_list <- dir_info(path = list_path, regexp = list_pattern,
                       type = "file", recurse = TRUE, ignore.case = TRUE)
@@ -57,13 +24,11 @@ file_list <- dir_info(path = list_path, regexp = list_pattern,
 file_desc <- read_csv(desc_file, show_col_types = FALSE)
 
 left_join(file_list, file_desc, by = "path") |>
-  mutate(파일명 = path_file(path),
-    설명 = description,
+  mutate(파일명 = paste0("<a href=\"", path, "\" download>",
+                      path_file(path), "</a>"),
+    `설명 (데이터 소스)` = description,
     수정일 = format(modification_time, "%Y-%m-%d"),
-    다운로드 = ifelse(file_exists(path),
-                  paste0("<a href=\"", path, "\" download>", path, "</a>"),
-                  path)
   ) |>
-  select(파일명:다운로드) |>
+  select(파일명:수정일) |>
   DT::datatable(escape = FALSE)
 ```
