@@ -30,5 +30,9 @@ left_join(file_list, file_desc, by = "path") |>
     수정일 = format(modification_time, "%Y-%m-%d"),
   ) |>
   select(파일명:수정일) |>
-  DT::datatable(escape = FALSE)
+  DT::datatable(options = list(
+    language = list(
+      url = "https://cdn.datatables.net/plug-ins/2.0.8/i18n/ko.json"
+    )
+  ), escape = FALSE)
 ```
