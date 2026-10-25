@@ -47,9 +47,9 @@ library(fs)
 library(readr)
 library(dplyr, warn.conflicts = FALSE)
 
-list_path <- "data"
+list_path <- "data_p"
 list_pattern <- "[.](?:xls(?:x)?|csv|rds(?:[.]gz)?)$"
-desc_file <- "file_description.csv"
+desc_file <- "data_p.csv"
 
 file_list <- dir_info(path = list_path, regexp = list_pattern,
                       type = "file", recurse = TRUE, ignore.case = TRUE)
