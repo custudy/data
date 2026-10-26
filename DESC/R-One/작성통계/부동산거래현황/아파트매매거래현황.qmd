@@ -1,5 +1,5 @@
 ---
-title: "행정구역(시군구)별 주민등록세대수"
+title: "아파트매매 거래현황"
 author: "부동산통계정보시스템 R-ONE"
 date: 2026-03-12
 categories:
