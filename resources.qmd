@@ -1,0 +1,24 @@
+---
+title: "Data Repository"
+
+listing: 
+    type: table
+    contents: DESC
+    sort:
+      - "author"
+      - "title"
+      - "date desc"
+    fields: 
+      - title
+      - author
+      - date
+    categories: true
+
+toc: false
+---
+
+## 데이터 저장소
+
+![](work_in_progress.GIF){height="1in" fig-align="left"}
+
+## 데이터 리소스

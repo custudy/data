@@ -1,0 +1,9 @@
+---
+title: "경제활동 인구"
+author: "KOSIS"
+date: 2026-03-12
+categories:
+    - 인구
+    - 경제활동인구
+---
+

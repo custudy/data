@@ -2,13 +2,15 @@
 title: "Data Repository"
 toc: false
 resources:
-  - "data/**"
+  - "files/**"
   - "*.json"
 ---
 
 ## 데이터 저장소
 
 ![](work_in_progress.GIF){height="1in" fig-align="left"}
+
+## 데이터 다운로드
 
 ```{r}
 #| label: list_data_dt
@@ -17,7 +19,7 @@ library(fs)
 library(readr)
 library(dplyr, warn.conflicts = FALSE)
 
-list_path <- "data"
+list_path <- "files"
 list_pattern <- "[.](?:xls(?:x)?|csv|rds(?:[.]gz)?)$"
 desc_file <- "data_description.csv"
 
