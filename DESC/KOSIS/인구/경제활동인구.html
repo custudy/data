@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="KOSIS">
+<meta name="author" content="국가통계포털 KOSIS">
 <meta name="dcterms.date" content="2026-03-12">
 
 <title>경제활동 인구 – CUStudy</title>
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-data">    
         <li>
     <a class="dropdown-item" href="https://data.custudy.org">
- <span class="dropdown-text">Repository</span></a>
+ <span class="dropdown-text">CUS Repository</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="https://data.custudy.org/resources.html">
@@ -138,8 +138,11 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">경제활동 인구</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">국가통계포털</div>
+    <div class="quarto-category">KOSIS</div>
     <div class="quarto-category">인구</div>
-    <div class="quarto-category">경제활동인구</div>
+    <div class="quarto-category">주민등록인구</div>
+    <div class="quarto-category">주민등록세대수</div>
   </div>
   </div>
 
@@ -150,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">저자</div>
     <div class="quarto-title-meta-contents">
-             <p>KOSIS </p>
+             <p>국가통계포털 KOSIS </p>
           </div>
   </div>
     
@@ -169,6 +172,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<ul>
+<li>주제: 인구</li>
+<li>대분류: 주민등록인구현황</li>
+<li>통계표: <a href="https://kosis.kr/statHtml/statHtml.do?sso=ok&amp;returnurl=https%3A%2F%2Fkosis.kr%3A443%2FstatHtml%2FstatHtml.do%3Flist_id%3DA_7%26obj_var_id%3D%26seqNo%3D%26tblId%3DDT_1B040B3%26vw_cd%3DMT_ZTITLE%26orgId%3D101%26path%3D%252FstatisticsList%252FstatisticsListIndex.do%26conn_path%3DMT_ZTITLE%26itm_id%3D%26lang_mode%3Dko%26scrId%3D%26">행정구역(시군구)별 주민등록세대수</a></li>
+</ul>
 
 
 
@@ -246,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/data\.custudy\.org");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

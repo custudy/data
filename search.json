@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "resources.html#데이터-설명",
-    "href": "resources.html#데이터-설명",
+    "objectID": "resources.html#데이터-리스트",
+    "href": "resources.html#데이터-리스트",
     "title": "Public Resources",
-    "section": "데이터 설명",
-    "text": "데이터 설명"
+    "section": "데이터 리스트",
+    "text": "데이터 리스트"
+  },
+  {
+    "objectID": "DESC/KOSIS/인구/주민등록인구현황.html",
+    "href": "DESC/KOSIS/인구/주민등록인구현황.html",
+    "title": "행정구역(시군구)별 주민등록세대수",
+    "section": "",
+    "text": "주제: 인구\n대분류: 주민등록인구현황\n통계표:\n\n행정구역(시군구)별 주민등록세대수\n행정구역(시군구)별 성별인구수"
   },
   {
     "objectID": "index.html#데이터-다운로드",
