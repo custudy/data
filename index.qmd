@@ -1,6 +1,5 @@
 ---
-title: "Data Repository"
-toc: false
+title: "CUS Repository"
 resources:
   - "files/**"
   - "*.json"
