@@ -19,7 +19,7 @@ library(readr)
 library(dplyr, warn.conflicts = FALSE)
 
 list_path <- "data_processed"
-list_pattern <- "[.](?:xls(?:x)?|csv|rds(?:[.]gz)?)$"
+list_pattern <- "[.](?:xls(?:x)?|csv(?:[.]gz)?|rds(?:[.]gz)?)$"
 desc_file <- "data_description.csv"
 
 file_list <- dir_info(path = list_path, regexp = list_pattern,

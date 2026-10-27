@@ -1,5 +1,5 @@
 ---
-title: "행정구역(시군구)별 주민등록세대수"
+title: "주민등록 인구 현황"
 author: "국가통계포털 KOSIS"
 date: 2026-10-02
 categories:
