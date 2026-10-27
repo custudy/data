@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://data.custudy.org/resources.html</loc>
-    <lastmod>2026-10-26T09:34:22.511Z</lastmod>
+    <lastmod>2026-10-27T02:26:43.532Z</lastmod>
   </url>
   <url>
-    <loc>https://data.custudy.org/DESC/R-One/작성통계/부동산거래현황/아파트매매거래현황.html</loc>
-    <lastmod>2026-10-26T12:48:36.401Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.custudy.org/DESC/KOSIS/인구/주민등록인구현황.html</loc>
-    <lastmod>2026-10-26T09:34:04.717Z</lastmod>
+    <loc>https://data.custudy.org/data_raw/KOSIS/인구/주민등록인구현황/주민등록인구현황.html</loc>
+    <lastmod>2026-10-27T02:16:23.451Z</lastmod>
   </url>
   <url>
     <loc>https://data.custudy.org/index.html</loc>
-    <lastmod>2026-10-26T12:49:04.240Z</lastmod>
+    <lastmod>2026-10-27T02:29:18.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.custudy.org/data_raw/KOSIS/보건/생명표/생명표.html</loc>
+    <lastmod>2026-10-27T02:17:47.221Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.custudy.org/data_raw/R-One/작성통계/부동산거래현황/아파트매매거래현황.html</loc>
+    <lastmod>2026-10-26T12:48:36.401Z</lastmod>
   </url>
 </urlset>
