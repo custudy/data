@@ -1,0 +1,39 @@
+---
+title: "생명표"
+author: "국가통계포털 KOSIS"
+date: 2026-03-12
+categories:
+    - 국가통계포털
+    - KOSIS
+    - 보건
+    - 생명표
+    - 간이생명표
+    - 완전생명표
+    - 사망원인별
+    - 건강수준별
+    - 시도별
+    - 연령별
+    - 1세별
+    - 5세별
+---
+
+## 데이터 위치
+
+1.  주제: 보건
+
+1.  대분류: 생명표
+
+1.  통계표:
+
+  - 간이생명표(5세별) (년 1970~1924) [DT_1B41](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B41&conn_path=I3)
+
+  - 완전생명표(1세별) (년 1970~1924) [DT_1B42](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B42&conn_path=I3)
+
+  - 사망원인생명표(5세별) (년 1995~2024) [DT_1B43](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B43&conn_path=I3)
+
+  - 시도별 간이생명표(5세별) (3년 2005~2023) [DT_1B44](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B44&conn_path=I3)
+
+  - 시도별 사망원인생명표(5세별) (3년 2005~2023) [DT_1B45](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B45&conn_path=I3)
+
+  - 건강수준별 기대여명 (년 2001~1924) [DT_1B46](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B46&conn_path=I3)
+

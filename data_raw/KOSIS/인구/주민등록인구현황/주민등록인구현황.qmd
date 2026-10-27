@@ -1,0 +1,45 @@
+---
+title: "행정구역(시군구)별 주민등록세대수"
+author: "국가통계포털 KOSIS"
+date: 2026-10-02
+categories:
+    - 국가통계포털
+    - KOSIS
+    - 인구
+    - 주민등록인구
+    - 주민등록언양인구
+    - 주민등록세대수
+    - 성별
+    - 연령별
+    - 1세별
+    - 5세별
+    - 행정구역
+    - 시군구
+    - 읍면동
+---
+
+## 데이터 위치
+
+1.  주제: 인구
+
+1.  대분류: 주민등록인구현황
+
+1.  통계표:
+
+    -  행정구역(시군구)별 주민등록세대수 (월,년 1992~2026.09) [DT_1B040B3](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040B3&conn_path=I3)
+
+    -  행정구역(시군구)별, 성별 인구수 (월,년 1992~2026.09) [DT_1B040A3](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040A3&conn_path=I3)
+
+    -  행정구역(시군구)별/1세별 주민등록인구 (월,년 2008.01~2026.09) [DT_1B04006](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B04006&conn_path=I3)
+
+    -  행정구역(읍면동)별/5세별 주민등록인구(2011년~) (월,년 2011~2026.09) [DT_1B04005N](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B04005N&conn_path=I3)
+
+    -  행정구역(읍면동)별/5세별 주민등록인구 (년 1992~2010) [DT_1B04005](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B04005&conn_path=I3)
+
+    -  시군구/성/연령(1세)별 주민등록연앙인구(2023~) (년 2023~2025) [DT_1B040M1_1](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040M1_1&conn_path=I3)
+
+    -  시군구/성/연령(5세)별 주민등록연앙인구(2023~) (년 2023~2025) [DT_1B040M5_1](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040M5_1&conn_path=I3)
+
+    -  시군구/성/연령(1세)별 주민등록연앙인구 (년 1993~2023) [DT_1B040M1](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040M1&conn_path=I3)
+
+    -  시군구/성/연령(5세)별 주민등록연앙인구 (년 1993~2023) [DT_1B040M5](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040M5&conn_path=I3)

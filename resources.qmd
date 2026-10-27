@@ -3,7 +3,7 @@ title: "Public Resources"
 
 listing: 
     type: table
-    contents: DESC
+    contents: data_raw
     sort:
       - "author"
       - "title"
