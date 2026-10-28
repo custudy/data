@@ -40,11 +40,11 @@ website:
 format:
   html:
     theme: spacelab
-    date-format: iso
+    date-format: "YYYY년 MM월 DD일"
 
 lang: ko
 language: korean.yml
 
-title-block-author-single: "제공기관"
-title-block-published: "데이터 기준일"
-title-block-modified: "파일 수정일"
+title-block-author-single: "데이터 원본"
+title-block-published: "원본 기준일"
+title-block-modified: "가공 생성일"
