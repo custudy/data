@@ -1,6 +1,7 @@
 ---
 title: "생명표"
 author: "국가통계포털 KOSIS"
+description: " "
 date: 2026-03-12
 categories:
     - 국가통계포털

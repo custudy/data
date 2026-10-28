@@ -2,17 +2,21 @@
 title: "Public Resources"
 
 listing: 
-    type: table
-    contents: data_raw
-    sort:
-      - "author"
-      - "title"
-      - "date desc"
-    fields: 
-      - title
-      - author
-      - date
-    categories: true
+  type: table
+  contents: data_raw
+  sort:
+    - "author"
+    - "title"
+    - "date desc"
+  fields: 
+    - title
+    - author
+    - description
+  field-display-names:
+    title: "데이터" 
+    author: "제공기관"
+    description: "통계설명"
+  categories: true
 ---
 
 ## 공공 데이터
