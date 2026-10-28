@@ -14,17 +14,17 @@ website:
     logo: cus_logo_v.png
     logo-href: https://www.custudy.org
     search: false
-    right:
-      - href: https://news.custudy.org
-        text: "News Letters"
-      - href: https://pubs.custudy.org 
-        text: "Publications"
-      - text: "Data"
-        menu: 
-        - href: https://data.custudy.org
-          text: "CUS Repository"
-        - href: https://data.custudy.org/resources.html
-          text: "Public Sources"
+#    right:
+#      - href: https://news.custudy.org
+#        text: "News Letters"
+#      - href: https://pubs.custudy.org 
+#        text: "Publications"
+#      - text: "Data"
+#        menu: 
+#        - href: https://data.custudy.org
+#          text: "CUS Repository"
+#        - href: https://data.custudy.org/resources.html
+#          text: "Public Sources"
 
   page-footer:
     left: |
@@ -44,7 +44,3 @@ format:
 
 lang: ko
 language: korean.yml
-
-title-block-author-single: "데이터 원본"
-title-block-published: "원본 기준일"
-title-block-modified: "가공 생성일"

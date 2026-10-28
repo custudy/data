@@ -14,8 +14,8 @@ listing:
     - "title"
   field-display-names:
     title: "데이터" 
-    author: "제공기관"
-    description: "통계설명"
+    author: "제공 기관"
+    description: "통계 설명"
   date-format: "'YY.MM.DD"
   categories: true
 ---
