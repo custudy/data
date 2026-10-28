@@ -45,7 +45,6 @@ format:
 lang: ko
 language: korean.yml
 
-# data.custudy.org 프로젝트만 적용
 title-block-author-single: "제공기관"
 title-block-published: "데이터 기준일"
-title-block-modified: "데이터 생성일"
+title-block-modified: "파일 수정일"
