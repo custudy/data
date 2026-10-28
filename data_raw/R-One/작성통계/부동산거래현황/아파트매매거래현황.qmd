@@ -1,7 +1,6 @@
 ---
 title: "아파트매매 거래현황"
 author: "부동산통계정보시스템 R-ONE"
-description: "통계주기: 월"
 date: 2026-03-12
 categories:
     - 한국부동산원
@@ -11,6 +10,9 @@ categories:
     - 아파트
     - 매매거래
 ---
+
+월 주기, 토지: 익월 25일, 주택: 익월 말\
+통계누리, KOSIS, SeeReal에도 제공
 
 ## 데이터 위치
 
