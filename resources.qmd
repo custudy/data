@@ -4,18 +4,19 @@ title: "Public Resources"
 listing: 
   type: table
   contents: data_raw
+  fields: 
+    - "title"
+    - "author"
+    - "description"
   sort:
+    - "date-modified desc"
     - "author"
     - "title"
-    - "date desc"
-  fields: 
-    - title
-    - author
-    - description
   field-display-names:
     title: "데이터" 
     author: "제공기관"
     description: "통계설명"
+  date-format: "'YY.MM.DD"
   categories: true
 ---
 
