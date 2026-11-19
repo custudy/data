@@ -4,6 +4,10 @@ project:
   resources: 
     - CNAME
     - "*.(png|jpg|jpeg|svg)"
+    - "/**/*.xlsx"
+    - "/**/*.csv"
+    - "/**/*.csv.gz"
+    - "/**/*.rds.gz"
 
 execute: 
   freeze: auto

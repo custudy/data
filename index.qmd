@@ -20,9 +20,6 @@ listing:
     description: "설명"
 
 sidebar: data
-
-resources: 
-  - "data_raw/**/*.(xlsx|csv|csv.gz|rds.gz)"
 ---
 
 ![](work_in_progress.GIF){height="1in" fig-align="left"}
