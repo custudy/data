@@ -4,6 +4,7 @@ project:
   resources: 
     - CNAME
     - "*.(png|jpg|jpeg|svg)"
+    - "*.json"
     - "/**/*.xlsx"
     - "/**/*.csv"
     - "/**/*.csv.gz"
