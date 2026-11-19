@@ -11,26 +11,33 @@ execute:
 website:
   draft-mode: visible
   navbar:
-    logo: logo_b.png
+    logo: cus_title.png
     logo-href: https://www.custudy.org
     search: false
-#    right:
+#    background: primary
+    right:
 #      - href: https://news.custudy.org
 #        text: "News Letters"
 #      - href: https://pubs.custudy.org 
 #        text: "Publications"
-#      - text: "Data"
-#        menu: 
-#        - href: https://data.custudy.org
-#          text: "CUS Repository"
-#        - href: https://data.custudy.org/resources.html
-#          text: "Public Sources"
+      - href: index.qmd
+      - href: download.qmd
+
+  sidebar: 
+    - id: home
+      title: Home
+      style: docked
+      collapse-level: 2
+    - id: data
+      title: Data
+      contents: data_raw
+
 
   page-footer:
     left: |
       © 2023, 2026 Construction Urban Study
     center: |
-      [![](/title_g.png){height=20px}](https://www.custudy.org)
+      [![](/cus_title_ko.png){height=20px}](https://www.custudy.org)
     right: |
       [contact@custudy.org](mailto:contact@custudy.org)
 
