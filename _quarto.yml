@@ -20,26 +20,28 @@ website:
     logo-href: https://www.custudy.org
     search: false
 #    background: primary
+    left: 
+      - href: index.qmd
     right:
 #      - href: https://news.custudy.org
 #        text: "News Letters"
 #      - href: https://pubs.custudy.org 
 #        text: "Publications"
-      - href: index.qmd
+      - href: resources.qmd
 #        text: data
-      - href: download.qmd
+      - href: downloads.qmd
 #        text: down
 
   sidebar: 
-#    - id: home
-#      title: Home
-    - id: data
+    - id: home
       style: docked
       collapse-level: 3
-#      title: Data
+      contents:
+        - href: resources.qmd
+        - href: downloads.qmd
+    - id: data
       contents: data_raw
     - id: down
-#      title: download
       contents: data_raw
 
   page-footer:

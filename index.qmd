@@ -1,27 +1,16 @@
 ---
-title: "Public Data"
+title: "Data Repository"
 
-listing: 
-  type: table
-  contents: data_raw
-  fields: 
-    - "title"
-    - "author"
-    - "description"
-  sort:
-    - "date-modified desc"
-    - "author"
-    - "title"
-  field-display-names:
-    title: "데이터"
-    author: "제공 기관"
-    description: "데이터 요약"
-  date-format: "'YY.MM.DD"
-  categories: true
-
-sidebar: data
+sidebar: home
 ---
 
 ![](work_in_progress.GIF){height="1in" fig-align="left"}
 
-## 공공 데이터
+
+::: {.callout-note}
+
+## 건설도시연구 데이터
+
+  데이터 관리를 위한 건설도시연구 홈페이지의 서브 프로젝트
+
+:::
