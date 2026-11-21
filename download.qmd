@@ -1,5 +1,7 @@
 ---
 title: "Data Download"
+
+sidebar: down
 ---
 
 ![](work_in_progress.GIF){height="1in" fig-align="left"}

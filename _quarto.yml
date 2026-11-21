@@ -26,17 +26,21 @@ website:
 #      - href: https://pubs.custudy.org 
 #        text: "Publications"
       - href: index.qmd
+#        text: data
       - href: download.qmd
+#        text: down
 
   sidebar: 
-    - id: home
-      title: Home
-      style: docked
-      collapse-level: 2
+#    - id: home
+#      title: Home
     - id: data
-      title: Data
+      style: docked
+      collapse-level: 3
+#      title: Data
       contents: data_raw
-
+    - id: down
+#      title: download
+      contents: data_raw
 
   page-footer:
     left: |
@@ -45,13 +49,13 @@ website:
       [![](/cus_title_ko.png){height=20px}](https://www.custudy.org)
     right: |
       [contact@custudy.org](mailto:contact@custudy.org)
-
+#    background: primary
     background: light
     foreground: dark
 
 format:
   html:
-    theme: spacelab
+    theme: Spacelab
     date-format: "YYYY년 MM월 DD일"
 
 title-block-banner: true

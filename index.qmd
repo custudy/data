@@ -12,12 +12,12 @@ listing:
     - "date-modified desc"
     - "author"
     - "title"
-  date-format: "'YY.MM.DD"
-  categories: true
   field-display-names:
     title: "데이터"
     author: "제공 기관"
-    description: "설명"
+    description: "데이터 요약"
+  date-format: "'YY.MM.DD"
+  categories: true
 
 sidebar: data
 ---

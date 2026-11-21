@@ -2,6 +2,7 @@
 title: "주민등록 인구 현황"
 author: "국가통계포털 KOSIS"
 date: 2026-10-02
+date-modified: 2026-10-20
 categories:
     - 국가통계포털
     - KOSIS
