@@ -2,26 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://data.custudy.org/resources.html</loc>
-    <lastmod>2026-11-19T04:52:28.599Z</lastmod>
+    <lastmod>2026-11-21T06:13:16.596Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.custudy.org/data_raw/행정안전부/행정구역/행정동및법정동.html</loc>
+    <lastmod>2026-11-21T02:17:04.426Z</lastmod>
   </url>
   <url>
     <loc>https://data.custudy.org/data_raw/KOSIS/인구/주민등록인구현황/주민등록인구현황.html</loc>
-    <lastmod>2026-10-28T00:59:55.126Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.custudy.org/download.html</loc>
-    <lastmod>2026-11-19T03:13:09.399Z</lastmod>
+    <lastmod>2026-11-21T02:19:23.736Z</lastmod>
   </url>
   <url>
     <loc>https://data.custudy.org/index.html</loc>
-    <lastmod>2026-11-19T04:56:38.799Z</lastmod>
+    <lastmod>2026-11-21T07:46:57.890Z</lastmod>
   </url>
   <url>
-    <loc>https://data.custudy.org/data_raw/KOSIS/보건/생명표/생명표.html</loc>
+    <loc>https://data.custudy.org/downloads.html</loc>
+    <lastmod>2026-11-21T05:58:24.102Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.custudy.org/data_raw/KOSIS/보건/생명표.html</loc>
     <lastmod>2026-10-28T04:30:35.659Z</lastmod>
   </url>
   <url>
+    <loc>https://data.custudy.org/data_raw/통계누리/승인통계/건설/건설공사계약금액.html</loc>
+    <lastmod>2026-11-21T04:50:19.585Z</lastmod>
+  </url>
+  <url>
     <loc>https://data.custudy.org/data_raw/R-One/작성통계/부동산거래현황/아파트매매거래현황.html</loc>
-    <lastmod>2026-10-28T01:00:22.963Z</lastmod>
+    <lastmod>2026-11-21T02:18:39.744Z</lastmod>
   </url>
 </urlset>
