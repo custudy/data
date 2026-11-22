@@ -20,25 +20,27 @@ website:
     logo-href: https://www.custudy.org
     search: false
 #    background: primary
-    left: 
-      - href: index.qmd
+#    left: 
+#      - href: index.qmd
     right:
 #      - href: https://news.custudy.org
 #        text: "News Letters"
 #      - href: https://pubs.custudy.org 
 #        text: "Publications"
-      - href: resources.qmd
-#        text: data
-      - href: downloads.qmd
-#        text: down
+      - text: "Data Repository"
+        menu: 
+        - href: resources.qmd
+          text: "Public Data"
+        - href: downloads.qmd
+          text: "Data Download"
 
   sidebar: 
     - id: home
-      style: docked
+#      style: docked
       collapse-level: 3
-      contents:
-        - href: resources.qmd
-        - href: downloads.qmd
+#      contents:
+#        - href: resources.qmd
+#        - href: downloads.qmd
     - id: data
       contents: data_raw
     - id: down
@@ -52,15 +54,18 @@ website:
     right: |
       [contact@custudy.org](mailto:contact@custudy.org)
 #    background: primary
-    background: light
-    foreground: dark
+#    background: light
+#    foreground: dark
 
 format:
   html:
-    theme: Spacelab
+    respect-user-color-scheme: true
+    theme:
+      light: cosmo
+      dark: [cosmo, cus-dark.scss]
     date-format: "YYYY년 MM월 DD일"
 
-title-block-banner: true
+#title-block-banner: true
 
 toc: true
 toc-depth: 1
