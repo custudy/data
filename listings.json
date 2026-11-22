@@ -3,6 +3,7 @@
     "listing": "/resources.html",
     "items": [
       "/data_raw/통계누리/승인통계/건설/건설공사계약금액.html",
+      "/data_raw/공통/행정구역/KOSIS행정구역.html",
       "/data_raw/행정안전부/행정구역/행정동및법정동.html",
       "/data_raw/KOSIS/보건/생명표.html",
       "/data_raw/KOSIS/인구/주민등록인구현황/주민등록인구현황.html",

@@ -48,11 +48,17 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Repository",
+    "objectID": "data_raw/공통/행정구역/KOSIS행정구역.html",
+    "href": "data_raw/공통/행정구역/KOSIS행정구역.html",
+    "title": "시군구 코드 및 명칭",
     "section": "",
-    "text": "노트건설도시연구 데이터\n\n\n\n데이터 관리를 위한 건설도시연구 홈페이지의 서브 프로젝트"
+    "text": "통계포털(KOSIS) 기준 행정구역 시군구 코드 및 명칭(2026년 11월 03일)\n\n통계포털: 인구 - 주민등록인구현황 - 행정구역(시군구)별 주민등록세대수\nKOSIS: Population - Population Statisticts Based on Resident Registration - Resident Households by City, County, and District\n전체 시군구가 포함 되도록 위 사이트에서,\n\n주민등록세대수 년자료 1992년 ~ 2025년, 월자료 2026년 01월 ~ 2026년 10월 선택\n영문 사이트에서도 같은 조건으로 코드 포함 다운로드 한 후 시군구 코드 및 이름 정리\n\n\n\n\n\n\n\n\n경고코드 사용 주의\n\n\n\n\n행정구역 개편으로 코드 자리수 체계가 일치하지 않는 경우 있고, 앞으로도 가능성 있음: 현재, 전북특별자치도(52)에 이전 전라북도(45) 코드 포함\n\n\n\n\n\ncsv 파일 다운로드\n\nrds 파일 다운로드",
+    "crumbs": [
+      "Data Raw",
+      "공통",
+      "행정구역",
+      "시군구 코드 및 명칭"
+    ]
   },
   {
     "objectID": "downloads.html#데이터-목록",
@@ -60,6 +66,13 @@
     "title": "Data Downloads",
     "section": "데이터 목록",
     "text": "데이터 목록"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Repository",
+    "section": "",
+    "text": "노트건설도시연구 데이터\n\n\n\n데이터 관리를 위한 건설도시연구 홈페이지의 서브 프로젝트"
   },
   {
     "objectID": "data_raw/KOSIS/보건/생명표.html",
