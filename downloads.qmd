@@ -40,5 +40,5 @@ left_join(file_list, file_desc, by = "path") |>
     language = list(
       url = "https://data.custudy.org/dt_ko.json"
     )
-  ), escape = FALSE, rownames = FALSE)
+  ), escape = FALSE, rownames = FALSE, style = "bootstrap")
 ```
